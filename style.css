@@ -1,0 +1,36 @@
+#board {
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: #555;
+}
+
+.piece {
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.piece-white {
+  color: white;
+}
+
+.piece-black {
+  color: black;
+}
