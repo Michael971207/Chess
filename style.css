@@ -12,6 +12,7 @@
   height: 60px;
   text-align: center;
   line-height: 60px;
+  cursor: pointer;
 }
 
 .white {
@@ -20,6 +21,10 @@
 
 .black {
   background-color: #555;
+}
+
+.selected {
+  background-color: #f00;
 }
 
 .piece {
